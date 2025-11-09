@@ -1,0 +1,20 @@
+{
+  "name": "projections",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/operatorjen/projections.git"
+  },
+  "license": "AGPL-3.0-or-later",
+  "author": "operatorjen",
+  "type": "module",
+  "dependencies": {
+    "motif": "github:operatorjen/motif",
+    "timeless": "github:operatorjen/timeless"
+  },
+  "main": "index.mjs",
+  "scripts": {
+    "test": "node index.test.mjs"
+  }
+}
